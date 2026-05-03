@@ -1,8 +1,8 @@
 # Credit Card Fraud Detection
 An end-to-end data analytics capstone project analyzing 339,607 credit card transactions across the western United States to identify patterns, build a rule-based risk scoring model, and visualize insights.
 ## Table of Contents
- 1. Project Overview
- 2. Dataset Description
+ 1. [Project Overview](#project-overview)
+ 2. [Datasettion Description](Dataset Description)
  3. Methodology & Workflow
  4. Key Findings
  5. Fraud Risk Scoring Model

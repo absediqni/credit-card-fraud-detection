@@ -1,18 +1,18 @@
 # Credit Card Fraud Detection
 An end-to-end data analytics capstone project analyzing 339,607 credit card transactions across the western United States to identify patterns, build a rule-based risk scoring model, and visualize insights.
 ## Table of Contents
- 1. [Project Overview](#Project Overview)
- 2. [Dataset Description)(#Dataset Description)
- 3. [Methodology & Workflow](#Methodology & Workflow)
- 4. [Key Findings](#Key Findings)
- 5. [Fraud Risk Scoring Model](#Fraud Risk Scoring Model)
- 6. [Model Performance](#Model performance)
- 7. [Visualizations & Dashboard](#Visualizations & Dashboard)
- 8. [Project Structure](#Project Structure)
- 9. [How to Use](#How to use)
- 10. [Tools used](#Tools used)
+ 1. [Project Overview](#Project-Overview)
+ 2. [Dataset Description)(#Dataset-Description)
+ 3. [Methodology & Workflow](#Methodology-&-Workflow)
+ 4. [Key Findings](#Key-Findings)
+ 5. [Fraud Risk Scoring Model](#Fraud-Risk-Scoring-Model)
+ 6. [Model Performance](#Model-performance)
+ 7. [Visualizations & Dashboard](#Visualizations-&-Dashboard)
+ 8. [Project Structure](#Project-Structure)
+ 9. [How to Use](#How-to-use)
+ 10. [Tools used](#Tools-used)
  11. [Limitations](#Limitations)
- 12. [Author & Contact](#Author & Contact)
+ 12. [Author & Contact](#Author-&-Contact)
 ## Project Overview
 Credit card fraud poses a significant financial risk and erodes customer trust. This project explores transaction data to identify risk factors, test key hypotheses, and build a scoring model that flags fraudulent transactions with a high recall rate.
 ## Dataset Description
@@ -55,11 +55,11 @@ The prediction rule flags transactions reaching a threshold score of 4 or greate
 
 ```
 ## Model Performance
- * **Accuracy**: 66.65%
+ * **Accuracy**: 82.74%
  * **Precision**: 2.32%
  * **Recall (Sensitivity)**: 77.50%
- * **F1-Score**: 5.46%
-> **Interpretation**: The model identifies the vast majority of all actual fraud events (Recall of 77.5%), fulfilling the objective to catch suspicious events, though it generates a high proportion of false alarms (Precision of 2.8%).
+ * **F1-Score**: 4.50%
+> **Interpretation**: The model identifies the vast majority of all actual fraud events (Recall of 77.5%), fulfilling the objective to catch suspicious events, though it generates a high proportion of false alarms (Precision of 2.32%).
 > 
 ## Visualizations & Dashboard
 The Power BI dashboard provides an interactive summary of our findings across four distinct pages:

@@ -1,21 +1,22 @@
 # Credit Card Fraud Detection
 An end-to-end data analytics capstone project analyzing 339,607 credit card transactions across the western United States to identify patterns, build a rule-based risk scoring model, and visualize insights.
 ## Table of Contents
- 1. Project Overview
- 2. Dataset Description
- 3. Methodology & Workflow
- 4. Key Findings
- 5. Fraud Risk Scoring Model
- 6. Model Performance
- 7. Visualizations & Dashboard
- 8. Project Structure
- 9. How to Use
- 10. Limitations
- 11. Author & Contact
+ 1. [Project Overview](#Project Overview)
+ 2. [Dataset Description)(#Dataset Description)
+ 3. [Methodology & Workflow](#Methodology & Workflow)
+ 4. [Key Findings](#Key Findings)
+ 5. [Fraud Risk Scoring Model](#Fraud Risk Scoring Model)
+ 6. [Model Performance](#Model performance)
+ 7. [Visualizations & Dashboard](#Visualizations & Dashboard)
+ 8. [Project Structure](#Project Structure)
+ 9. [How to Use](#How to use)
+ 10. [Tools used](#Tools used)
+ 11. [Limitations](#Limitations)
+ 12. [Author & Contact](#Author & Contact)
 ## Project Overview
 Credit card fraud poses a significant financial risk and erodes customer trust. This project explores transaction data to identify risk factors, test key hypotheses, and build a scoring model that flags fraudulent transactions with a high recall rate.
 ## Dataset Description
- * **Source**: Adapted from Kaggle and DataCamp.
+ * **Source**: Adapted from [Kaggle](https://www.kaggle.com/datasets/kartik2112/fraud-detection) and [DataCamp](https://www.datacamp.com/datalab/w/a0f4d3c5-f954-493b-bb2d-5093769ed232/edit).
  * **Volume**: 339,607 transactions.
  * **Target Variable**: is_fraud (1 = Fraud, 0 = Legitimate).
  * **Overall Fraud Rate**: 0.52% (highly imbalanced dataset).
@@ -32,7 +33,7 @@ The analysis was performed across three distinct phases:
    * Derived features: Cutomer_age, transaction_hour, and Is_Night.
    * Evaluated descriptive statistics (Mean, Median, and Outliers).
  2. **Phase 2: Statistical Hypothesis Testing**
-   * Tested differences in age, transaction amount, and time of day to ensure patterns were not random using the Analysis ToolPak.
+   * Tested differences in age, transaction amount, and time of day to ensure patterns were not random using functions and forulas.
  3. **Phase 3: Modeling & Evaluation**
    * Developed a rule-based fraud scoring model.
    * Created a Confusion Matrix to evaluate classification performance.
@@ -40,7 +41,7 @@ The analysis was performed across three distinct phases:
  1. **High-Value Transactions Drive Fraud**: Transactions > \$500 show a fraud rate of **20.70%** (compared to the baseline of 0.52%).
  2. **Online Categories are High Risk**: The categories shopping_net and misc_net exhibit the highest rates of fraud (up to 1.44%).
  3. **Late-Night Spikes**: Fraud peaks between 10 PM and 11 PM with a fraud rate exceeding **2.6%**.
- 4. **Geographic Variation**: Alaska shows the highest state-level fraud rate at 1.69%.
+ 4. **Geographic Variation**: Alaska shows the highest state-level fraud rate at **1.69%**.
  5. **Distance Anomalies**: Fraudulent transactions show a significantly higher average distance between customer location and merchant.
 ## Fraud Risk Scoring Model
 A rule-based scoring mechanism was built in Excel to score each transaction based on risk characteristics:
@@ -55,7 +56,7 @@ The prediction rule flags transactions reaching a threshold score of 4 or greate
 ```
 ## Model Performance
  * **Accuracy**: 66.65%
- * **Precision**: 2.80%
+ * **Precision**: 2.32%
  * **Recall (Sensitivity)**: 77.50%
  * **F1-Score**: 5.46%
 > **Interpretation**: The model identifies the vast majority of all actual fraud events (Recall of 77.5%), fulfilling the objective to catch suspicious events, though it generates a high proportion of false alarms (Precision of 2.8%).
@@ -101,11 +102,15 @@ The Power BI dashboard provides an interactive summary of our findings across fo
    * Open the .pbix file using Microsoft Power BI Desktop.
  3. **Analyze the Data**:
    * Open transaction_sample.csv in your spreadsheet editor (Excel) to review the fraud scoring columns.
+## Tools used 
+  **Excel | Power BI**
+  * **Microsoft Excel** was used for data cleaning and modeling. This included handling missing values, removing duplicates, transforming raw data into structured formats, and building logical data models for analysis.
+  * **Power BI** was used for data visualization and reporting. Interactive dashboards were created to present key insights, trends, and performance metrics, enabling clear and data-driven decision-making.
 ## Limitations
  * **Imbalanced Dataset**: With a low prevalence of actual fraud (0.52%), the model exhibits low precision.
  * **Rule-Based Model**: The threshold logic is static and cannot automatically capture complex, nonlinear behaviors.
  * **Geographical Approximations**: Distance values use latitude/longitude centroids rather than precise multi-modal travel routes.
 ## Author & Contact
 **Nuhu Abubakar Sediq** * **Role**: Data Management Executive & Data Analyst
- * **LinkedIn**: Nuhu Abubakar Sediq
- * **GitHub**: Abubakar Nuhu
+ * **LinkedIn**: [Nuhu Abubakar](https://www.linkedin.com/in/absediqni/)
+ * **Contact**: [Send Email](mailto:absediqni@gmail.com)

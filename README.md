@@ -1,8 +1,10 @@
 # Credit Card Fraud Detection
 An end-to-end data analytics capstone project analyzing 339,607 credit card transactions across the western United States to identify patterns, build a rule-based risk scoring model, and visualize insights.
+![#Cedit-card-fraud-detecttion](https://github.com/absediqni/credit-card-fraud-detection/blob/main/assets/dashboard.gif)
+
 ## Table of Contents
  1. [Project Overview](#Project-Overview)
- 2. [Dataset Description)(#Dataset-Description)
+ 2. [Dataset Description](#Dataset-Description)
  3. [Methodology & Workflow](#Methodology-&-Workflow)
  4. [Key Findings](#Key-Findings)
  5. [Fraud Risk Scoring Model](#Fraud-Risk-Scoring-Model)
@@ -78,7 +80,7 @@ The Power BI dashboard provides an interactive summary of our findings across fo
 ## Project Structure
 ```text
 ├── data/
-│   └── transaction_sample.csv       <- First 1,000 rows of the dataset
+│   └── [Credit_card_sample_dataset.csv](https://github.com/absediqni/credit-card-fraud-detection/blob/main/data/Credit_card_sample_dataset.csv       <- First 1,000 rows of the dataset)
 ├── reports/
 │   └── Fraud_Analysis_Report.pdf    <- Full methodology report and findings
 ├── dashboard/
@@ -95,13 +97,13 @@ The Power BI dashboard provides an interactive summary of our findings across fo
 ## How to Use
  1. **Clone the repository**:
    ```bash
-   git clone https://github.com/SediqNuhu/credit-card-fraud-detection.git
+   git clone https://github.com/absediqni/credit-card-fraud-detection.git
    
    ```
  2. **View the Power BI dashboard**:
    * Open the .pbix file using Microsoft Power BI Desktop.
  3. **Analyze the Data**:
-   * Open transaction_sample.csv in your spreadsheet editor (Excel) to review the fraud scoring columns.
+   * Open credit_card_sample_dataset.csv in your spreadsheet editor (Excel) to review the fraud scoring columns.
 ## Tools used 
   **Excel | Power BI**
   * **Microsoft Excel** was used for data cleaning and modeling. This included handling missing values, removing duplicates, transforming raw data into structured formats, and building logical data models for analysis.
@@ -111,6 +113,7 @@ The Power BI dashboard provides an interactive summary of our findings across fo
  * **Rule-Based Model**: The threshold logic is static and cannot automatically capture complex, nonlinear behaviors.
  * **Geographical Approximations**: Distance values use latitude/longitude centroids rather than precise multi-modal travel routes.
 ## Author & Contact
-**Nuhu Abubakar Sediq** * **Role**: Data Management Executive & Data Analyst
+**Nuhu Abubakar Sediq** 
+ * **Role**: Data Management Executive & Data Analyst
  * **LinkedIn**: [Nuhu Abubakar](https://www.linkedin.com/in/absediqni/)
- * **Contact**: [Send Email](mailto:absediqni@gmail.com)
+ * **Contact**: [Send me a mail](mailto:absediqni@gmail.com)

@@ -1,6 +1,7 @@
 # Credit Card Fraud Detection
 An end-to-end data analytics capstone project analyzing 339,607 credit card transactions across the western United States to identify patterns, build a rule-based risk scoring model, and visualize insights.
-![#Cedit-card-fraud-detecttion](https://github.com/absediqni/credit-card-fraud-detection/blob/main/assets/dashboard.gif)
+![#Cedit-card-fraud-detecttion](https://github.com/absediqni/credit-card-fraud-detection/blob/main/assets/dimage.gif)
+[View Live Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjFjNzU2YTktZjI2NC00MzQ4LThlYmItMDc3OWRkMzFkMGNkIiwidCI6ImI5ZDkyNjZmLWU2ZmEtNGU5Ni05YTE2LWE4MjQ0OTY3YTMzZSJ9)
 
 ## Table of Contents
  1. [Project Overview](#Project-Overview)
@@ -44,7 +45,6 @@ The analysis was performed across three distinct phases:
  2. **Online Categories are High Risk**: The categories shopping_net and misc_net exhibit the highest rates of fraud (up to 1.44%).
  3. **Late-Night Spikes**: Fraud peaks between 10 PM and 11 PM with a fraud rate exceeding **2.6%**.
  4. **Geographic Variation**: Alaska shows the highest state-level fraud rate at **1.69%**.
- 5. **Distance Anomalies**: Fraudulent transactions show a significantly higher average distance between customer location and merchant.
 ## Fraud Risk Scoring Model
 A rule-based scoring mechanism was built in Excel to score each transaction based on risk characteristics:
 ```excel
@@ -68,14 +68,14 @@ The Power BI dashboard provides an interactive summary of our findings across fo
 ### Page 1: Executive Overview
 ![#overview](https://github.com/absediqni/credit-card-fraud-detection/blob/main/assets/overview.png)
 *Highlights high-level KPIs including the total fraud amount, aggregate transaction numbers, and overall recall.*
-### Page 2: Transaction & Risk Category Analysis
-
+### Page 2: Transaction Deep-Dive
+![deep_dive](https://github.com/absediqni/credit-card-fraud-detection/blob/main/assets/deep_dive.png)
 *Explores the performance of specific product and internet-based categories.*
-### Page 3: Geographic & Spatial Analysis
-
+### Page 3: Customer Risk Profile
+![risk_profile](https://github.com/absediqni/credit-card-fraud-detection/blob/main/assets/risk_profile.png)
 *Tracks anomalies and distances across cities and states like Alaska.*
-### Page 4: Time-Based & Demographic Trends
-
+### Page 4: Model Performance
+![model_performance](https://github.com/absediqni/credit-card-fraud-detection/blob/main/assets/model_performance.png)
 *Visualizes hourly and demographic risk factors.*
 ## Project Structure
 ```text
@@ -95,15 +95,19 @@ The Power BI dashboard provides an interactive summary of our findings across fo
 
 ```
 ## How to Use
- 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/absediqni/credit-card-fraud-detection.git
-   
-   ```
- 2. **View the Power BI dashboard**:
-   * Open the .pbix file using Microsoft Power BI Desktop.
- 3. **Analyze the Data**:
-   * Open credit_card_sample_dataset.csv in your spreadsheet editor (Excel) to review the fraud scoring columns.
+1. **Power BI Dashboard (.pbix)**
+Software: Microsoft Power BI Desktop (Free).
+**Interaction:**
+ * Open the file in the /dashboard folder to explore the 4-page report.
+ * Use the Bookmark Buttons (Default, Fraud-Only, High-Risk) to toggle pre-set analytical views.
+ * Interact with Slicers and Tooltips to filter data by date, category, or geography.
+2. **Excel Scoring Logic (.csv)**
+ *Software:* Microsoft Excel.
+**Interaction:**
+ * Open the dataset in the /data folder to view transaction-level details.
+ * Review the Scoring Columns at the far right to see the Excel formulas calculating fraud risk.
+* Test the logic by modifying transaction amounts to see the Fraud Score update in real-time.
+
 ## Tools used 
   **Excel | Power BI | GitHub**
   * **Microsoft Excel** was used for data cleaning and modeling. This included handling missing values, removing duplicates, transforming raw data into structured formats, and building logical data models for analysis.

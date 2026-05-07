@@ -66,7 +66,7 @@ The prediction rule flags transactions reaching a threshold score of 4 or greate
 ## Visualizations & Dashboard
 The Power BI dashboard provides an interactive summary of our findings across four distinct pages:
 ### Page 1: Executive Overview
-
+![#overview](https://github.com/absediqni/credit-card-fraud-detection/blob/main/assets/overview.png)
 *Highlights high-level KPIs including the total fraud amount, aggregate transaction numbers, and overall recall.*
 ### Page 2: Transaction & Risk Category Analysis
 
@@ -80,7 +80,7 @@ The Power BI dashboard provides an interactive summary of our findings across fo
 ## Project Structure
 ```text
 ├── data/
-│   └── [Credit_card_sample_dataset.csv](https://github.com/absediqni/credit-card-fraud-detection/blob/main/data/Credit_card_sample_dataset.csv       <- First 1,000 rows of the dataset)
+│   └── Credit_card_sample_dataset.csv <- First 1,000 rows of the dataset)
 ├── reports/
 │   └── Fraud_Analysis_Report.pdf    <- Full methodology report and findings
 ├── dashboard/
@@ -105,13 +105,16 @@ The Power BI dashboard provides an interactive summary of our findings across fo
  3. **Analyze the Data**:
    * Open credit_card_sample_dataset.csv in your spreadsheet editor (Excel) to review the fraud scoring columns.
 ## Tools used 
-  **Excel | Power BI**
+  **Excel | Power BI | GitHub**
   * **Microsoft Excel** was used for data cleaning and modeling. This included handling missing values, removing duplicates, transforming raw data into structured formats, and building logical data models for analysis.
   * **Power BI** was used for data visualization and reporting. Interactive dashboards were created to present key insights, trends, and performance metrics, enabling clear and data-driven decision-making.
+  * **GitHub** — Used to host the data analysis project, manage version control, track code changes, and maintain collaboration workflows.
+
 ## Limitations
  * **Imbalanced Dataset**: With a low prevalence of actual fraud (0.52%), the model exhibits low precision.
  * **Rule-Based Model**: The threshold logic is static and cannot automatically capture complex, nonlinear behaviors.
  * **Geographical Approximations**: Distance values use latitude/longitude centroids rather than precise multi-modal travel routes.
+   
 ## Author & Contact
 **Nuhu Abubakar Sediq** 
  * **Role**: Data Management Executive & Data Analyst

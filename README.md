@@ -1,7 +1,6 @@
 # Credit Card Fraud Detection
 An end-to-end data analytics capstone project analyzing 339,607 credit card transactions across the western United States to identify patterns, build a rule-based risk scoring model, and visualize insights.
 ![#Cedit-card-fraud-detecttion](https://github.com/absediqni/credit-card-fraud-detection/blob/main/assets/dimage.gif)
-[View Live Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjFjNzU2YTktZjI2NC00MzQ4LThlYmItMDc3OWRkMzFkMGNkIiwidCI6ImI5ZDkyNjZmLWU2ZmEtNGU5Ni05YTE2LWE4MjQ0OTY3YTMzZSJ9)
 
 ## Table of Contents
  1. [Project Overview](#Project-Overview)
@@ -77,6 +76,7 @@ The Power BI dashboard provides an interactive summary of our findings across fo
 ### Page 4: Model Performance
 ![model_performance](https://github.com/absediqni/credit-card-fraud-detection/blob/main/assets/model_performance.png)
 *Visualizes hourly and demographic risk factors.*
+[View Live Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjFjNzU2YTktZjI2NC00MzQ4LThlYmItMDc3OWRkMzFkMGNkIiwidCI6ImI5ZDkyNjZmLWU2ZmEtNGU5Ni05YTE2LWE4MjQ0OTY3YTMzZSJ9)
 ## Project Structure
 ```text
 ├── data/
@@ -95,18 +95,19 @@ The Power BI dashboard provides an interactive summary of our findings across fo
 
 ```
 ## How to Use
-1. **Power BI Dashboard (.pbix)**
-Software: Microsoft Power BI Desktop (Free).
-**Interaction:**
- * Open the file in the /dashboard folder to explore the 4-page report.
- * Use the Bookmark Buttons (Default, Fraud-Only, High-Risk) to toggle pre-set analytical views.
- * Interact with Slicers and Tooltips to filter data by date, category, or geography.
-2. **Excel Scoring Logic (.csv)**
- *Software:* Microsoft Excel.
-**Interaction:**
- * Open the dataset in the /data folder to view transaction-level details.
- * Review the Scoring Columns at the far right to see the Excel formulas calculating fraud risk.
-* Test the logic by modifying transaction amounts to see the Fraud Score update in real-time.
+### Power BI Dashboard (.pbix)
+* **Software** Microsoft Power BI Desktop (Free).
+* **Interaction:**
+  * Open the file in the /dashboard folder to explore the 4-page report.
+  * Use the *Bookmark Buttons* (Default, Fraud-Only, High-Risk) to toggle pre-set analytical views.
+  * Interact with *Slicers* and *Tooltips* to filter data by date, category, or geography.
+  * Use the *navigation* buttons to move across pages
+### Excel Scoring Logic (.csv)
+* **Software** Microsoft Excel.
+* **Interaction:**
+  * Open the dataset in the /data folder to view transaction-level details.
+  * Review the Scoring Columns at the far right to see the Excel formulas calculating fraud risk.
+  * Test the logic by modifying transaction amounts to see the Fraud Score update in real-time.
 
 ## Tools used 
   **Excel | Power BI | GitHub**

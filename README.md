@@ -97,7 +97,7 @@ The Power BI dashboard provides an interactive summary of our findings across fo
 ### Power BI Dashboard (.pbix)
 * **Software** Microsoft Power BI Desktop (Free).
 * **Interaction:**
-  * Open the file in the ![Power BI file/Dashboard folder](https://drive.google.com/file/d/1cGym5XEFuuvcb3JayOaiG7SxnLHw02ma/view?usp=drive_link) to explore the 4-page report.
+  * Open the file in the [Power BI file/Dashboard folder](https://drive.google.com/file/d/1cGym5XEFuuvcb3JayOaiG7SxnLHw02ma/view?usp=drive_link) to explore the 4-page report.
   * Use the *Bookmark Buttons* (Default, Fraud-Only, High-Risk) to toggle pre-set analytical views.
   * Interact with *Slicers* and *Tooltips* to filter data by date, category, or geography.
   * Use the *navigation* buttons to move across pages

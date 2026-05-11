@@ -76,21 +76,20 @@ The Power BI dashboard provides an interactive summary of our findings across fo
 ### Page 4: Model Performance
 ![model_performance](https://github.com/absediqni/credit-card-fraud-detection/blob/main/assets/model_performance.png)
 *Visualizes hourly and demographic risk factors.*
-[View Live Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjFjNzU2YTktZjI2NC00MzQ4LThlYmItMDc3OWRkMzFkMGNkIiwidCI6ImI5ZDkyNjZmLWU2ZmEtNGU5Ni05YTE2LWE4MjQ0OTY3YTMzZSJ9)
+* [View Live Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjFjNzU2YTktZjI2NC00MzQ4LThlYmItMDc3OWRkMzFkMGNkIiwidCI6ImI5ZDkyNjZmLWU2ZmEtNGU5Ni05YTE2LWE4MjQ0OTY3YTMzZSJ9)
 ## Project Structure
 ```text
 ├── data/
 │   └── Credit_card_sample_dataset.csv <- First 1,000 rows of the dataset)
 ├── reports/
-│   └── Fraud_Analysis_Report.pdf    <- Full methodology report and findings
+│   └── Project_Report.pdf    <- Full methodology report and findings
 ├── dashboard/
-│   ├── Fraud_Dashboard.pbix         <- Power BI Dashboard file
 │   └── dashboard_exports.pdf        <- Exported views of all 4 pages
 ├── assets/
 │   ├── executive_overview.png       <- Dashboard screenshot
-│   ├── category_insights.png        <- Dashboard screenshot
-│   ├── geospatial_map.png           <- Dashboard screenshot
-│   └── temporal_trends.png          <- Dashboard screenshot
+│   ├── Deep_dive.png        <- Dashboard screenshot
+│   ├──  risk_profile.png           <- Dashboard screenshot
+│   └── model_performance.png          <- Dashboard screenshot
 └── README.md
 
 ```
@@ -98,7 +97,7 @@ The Power BI dashboard provides an interactive summary of our findings across fo
 ### Power BI Dashboard (.pbix)
 * **Software** Microsoft Power BI Desktop (Free).
 * **Interaction:**
-  * Open the file in the /dashboard folder to explore the 4-page report.
+  * Open the file in the ![Power BI file/Dashboard folder](https://drive.google.com/file/d/1cGym5XEFuuvcb3JayOaiG7SxnLHw02ma/view?usp=drive_link) to explore the 4-page report.
   * Use the *Bookmark Buttons* (Default, Fraud-Only, High-Risk) to toggle pre-set analytical views.
   * Interact with *Slicers* and *Tooltips* to filter data by date, category, or geography.
   * Use the *navigation* buttons to move across pages
